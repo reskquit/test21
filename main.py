@@ -8,7 +8,7 @@ def f(s):
 def print_hi(name):
     s = input()
     while s != "quit":
-        s = int(input)
+        s = int(s)
         print(f(s))
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
